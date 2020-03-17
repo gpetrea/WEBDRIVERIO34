@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582823439657' stop='1582823439665'>
+    <name>[cestel] Stress test case</name>
+    <title>[cestel] Stress test case</title>
+    <test-cases>
+        <test-case start='1582823439657' status='undefined'>
+            <name>[cestel] Test auto respuesta</name>
+            <title>[cestel] Test auto respuesta</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-5.3.0-41-generic'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582823439657' status='broken' stop='1582823439664'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-5.3.0-41-generic'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>log is not defined</message>
+                <stack-trace>ReferenceError: log is not defined
+                    at Context.&lt;anonymous> (/home/szarza/proyectos/CESTEL/calypso/2/tests/selenium/wdio/test/specs/stress.js:19:9)
+                    at Context.executeAsync (/home/szarza/proyectos/CESTEL/calypso/2/tests/selenium/wdio/node_modules/@wdio/utils/build/shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (/home/szarza/proyectos/CESTEL/calypso/2/tests/selenium/wdio/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:55:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582823439664' status='passed' stop='1582823439665'>
+            <name>"after each" hook</name>
+            <title>"after each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-5.3.0-41-generic'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

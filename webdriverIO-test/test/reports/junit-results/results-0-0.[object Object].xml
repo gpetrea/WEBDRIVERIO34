@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="A_11_Chat_1" timestamp="2020-03-13T09:47:06" time="21.018" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="A-11 Chat 1"/>
+      <property name="capabilities" value="firefox.72_0_1.windows"/>
+      <property name="file" value=".\test\specs\A-11 Chat1.js"/>
+    </properties>
+    <testcase classname="firefox.72_0_1.windows.A_11_Chat_1" name="" time="21"/>
+  </testsuite>
+</testsuites>
