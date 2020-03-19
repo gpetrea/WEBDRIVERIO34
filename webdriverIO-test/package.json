@@ -35,5 +35,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "appium": "^1.17.0",
+    "webdriverio": "^5.22.1"
   }
 }
